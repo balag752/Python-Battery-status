@@ -49,7 +49,7 @@ def BatteryCheck(Low=25, High=80):
 					notifymsg("Battery is fully charged. Unplug the charger soon")
 					time.sleep(60)
 				notifymsg("Battery level is "+percent+"%. Please unplug the charger")
-				time.sleep(180)
+				time.sleep(80)
 				continue
 
 			elif( plugged==False and battery.percent<=Low):
@@ -57,10 +57,10 @@ def BatteryCheck(Low=25, High=80):
 					notifymsg("Battery level is "+percent+"%. Charge up soon")
 					time.sleep(60)
 				notifymsg("Battery level is "+percent+"%. Please charge up")
-				time.sleep(180)
+				time.sleep(80)
 				continue
 				
-			time.sleep(100)	
+			time.sleep(120)	
 			
 	except AssertionError as error:
 		print(error)

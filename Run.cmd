@@ -1,0 +1,1 @@
+C:\Users\Dell\Anaconda3\python.exe "E:\Techi\Masters in Data Science\Supplementries\Projects\Python Battery status\Notification.py" 20 80
